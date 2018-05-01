@@ -1,3 +1,4 @@
+.PHONY: clean
 build:
 	sh scripts/build.sh
 run:
