@@ -1,4 +1,5 @@
-FROM centos:ssh
+# https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+FROM centos:latest
 
 # Generally a good idea to have these, extensions sometimes need them
 # RUN locale-gen en_US.UTF-8
